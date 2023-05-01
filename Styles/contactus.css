@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+
+    padding: 20px;
+    background-color: seagreen;
+    text-align: center;
+    }
+    menu{
+        display: inline-flex;
+        /*margin: 25px;*/
+        height: 155px;
+        padding: 0px;
+    }
+    .tst{
+        text-align: center;
+    }
+    menu > .tst > p {
+       /* width: 100vw;*/
+     color: white;
+     
+    }
+    menu > .tst > h1{
+        font-size: 2.5em;
+        font-weight: bolder;
+        color: ;
+    }
+    q{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: aliceblue;
+    }
+    
+    ul{
+    list-style: none;
+    margin-left: 20px;
+    display: inline-block;
+    text-align: center;
+    }
+    li{
+        height: 20px;
+        padding: 5px;
+        
+    }
+    a{
+        text-decoration: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: aliceblue;
+        
+    }
+    a:hover{
+        padding: 2px;
+        color: rgb(184, 176, 167);
+    }
+    #cat{
+        background-color: rgb(22, 68, 42);
+        box-shadow: 5px 5px 8px black;
+        height: 2em;
+        border-radius: 2px 3px 55px 55px;
+        width: 100%;
+        margin: auto;
+               
+    }
+    #cat > ul {
+        color: black;
+        display: flex;
+        margin: auto;
+        
+    }
+    #cat > li{
+        border: 1px solid black;
+        
+
+    }
+    #cat > a{
+        color: black;
+        
+        
+    }
+    body{
+        margin: px;
+        padding: 1;
+    }
+    main{
+        padding: 50px;
+        
+    }
+    main > h1, h2, h3{
+        padding: 10px;
+        margin-top: 10px;
+        
+        text-align: center;
+    }
+.lilojas{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin: 12px;
+}
+
+
+/*FOOTER*/
+footer{
+    position: ;
+    ;
+    /*width: 100vw;*/
+    background-color: seagreen;
+   
+}
+footer > p{
+    line-height: 1.8em;
+    margin-top: 15PX;
+   
+}
+
+p, h2{
+    text-align: center;
+  
+    color: ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.9em;
+    font-weight: bolder;
+   
+}
+h2{
+    font-size: 1.2em;
+ 
+}
+.bloco{
+    display: inline-grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    
+}
+.bloco > li{
+    list-style: none;
+}
