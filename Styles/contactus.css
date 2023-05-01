@@ -132,13 +132,11 @@ h2{
  
 }
 .bloco{
-    display: inline-grid;
-    justify-content: center;
-    align-content: center;
+    display: inline-block;
+   margin-right: 50px;
+    margin-left: 50px;
     text-align: center;
     padding: 10px;
-    margin: auto;
-    
 }
 .bloco > li{
     list-style: none;
