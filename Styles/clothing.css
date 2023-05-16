@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding:0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 @media only screen and (max-width: 600px){
     html{
@@ -16,51 +18,62 @@
         text-align: center;
         }
         menu{
-            display: inline-flex;
-          
-            height: 155px;
-            padding: 0px;
+            width: 80vw;
+            margin: auto;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            height: 740px;
+            padding-bottom: 21px;
+           
+        }
+        .home > h1 {
+      
+            position: inherit; 
+            background-color: black;
+            line-height: 1.3em;
+            color: white;
+            text-align: center;
             
+           
         }
         .tst{
             text-align: center;
-            
+           padding-bottom: 120px;
         }
         menu > .tst > p {
-           /* width: 100vw;*/
-         color: white;
-         
+           
+            color: white;
         }
         menu > .tst > h1{
-            font-size: 1em;
+            font-size: 3em;
             font-weight: bolder;
-            
             
         }
-       
+        
         q{
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 1em;
+            font-size: 2em;
             font-weight: bolder;
             color: aliceblue;
-           
         }
         
         ul{
         list-style: none;
-        margin-left: 20px;
+        margin: auto;
         display: inline-block;
         margin-bottom: 5px;
         }
         li{
-            height: 20px;
+            
+            
             padding: 5px;
-           
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
         a{
             text-decoration: none;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 1em;
+            font-size: 1.8em;
             font-weight: bolder;
             color: aliceblue;
             
@@ -74,8 +87,9 @@
             background-color: rgb(22, 68, 42);
             box-shadow: 5px 5px 8px black;
             height: 2em;
-            border-radius: 2px 3px 55px 55px;
-            width: 98%;
+            font-size: 0.7em;
+            height: 42px;
+            width: 100%;
             height: 35px;
            
            
@@ -93,17 +107,15 @@
             border: 1px solid black;
             font-size: 0.5em;
             
-    
-        }
-        #cat > a{
-            color: black;
             
     
         }
-        #cat{
-            font-size: 0.7em;
+        #cat > ul > li> a{
            
+            font-size: 1.3em;
+            
         }
+       
         .groups > h1{
             text-align: center;
             margin-top: 20px;

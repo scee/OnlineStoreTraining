@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 body{
     background-color: beige;
@@ -10,45 +12,44 @@ body{
 /*MOBILE*/
 @media screen and (max-width: 600px){
     html{
-        padding: ;
+        
         height: 100%;
         width:vw;
     }
     /*Header*/
 
     header{
-    width: ;
+   
     padding: 20px;
     background-color: seagreen;
     text-align: center;
    
     }
     menu{
-        width: 80vw;
-       
-        display: inline-flex;
-        margin-top: 199px;
-        margin-bottom: 182px;
-        
-        padding: 2px;
+        width: ;
+        margin: auto;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        height: 740px;
+        padding-bottom: 21px;
        
     }
     .tst{
         text-align: center;
-       
+       padding-bottom: 120px;
     }
     menu > .tst > p {
        
         color: white;
     }
     menu > .tst > h1{
-        font-size: 2.5em;
+        font-size: 3em;
         font-weight: bolder;
         
     }
     q{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1.2em;
+        font-size: 2em;
         font-weight: bolder;
         color: aliceblue;
     }
@@ -60,13 +61,13 @@ body{
     }
     li{
         margin-top: 5px;
-        margin-bottom: 2px;
-        
+        margin-bottom: 5px;
+        padding: 5px;
     }
     a{
         text-decoration: none;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1.2em;
+        font-size: 2em;
         font-weight: bolder;
         color: aliceblue;
         
