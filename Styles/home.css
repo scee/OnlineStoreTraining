@@ -5,7 +5,7 @@
 
 }
 body{
-    background-color: beige;
+    background-color: white;
     background-attachment: fixed;
 }
 
@@ -26,7 +26,7 @@ body{
    
     }
     menu{
-        width: ;
+        width: max-content;
         margin: auto;
         margin-top: 2px;
         margin-bottom: 2px;
@@ -49,7 +49,7 @@ body{
     }
     q{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 2em;
+        font-size: 1.3em;
         font-weight: bolder;
         color: aliceblue;
     }
@@ -206,7 +206,7 @@ body{
     }
 }
 /*DESKTOP*/
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     /*Header*/
 
 header{
@@ -291,18 +291,17 @@ header{
         
     }
     .itens{
-    margin-left: 290px;
-    width: 1000px;
+    
+    
     text-align: center;
     align-items: center;
-    
-    
     
     }
     .linha{
         text-align: center;
         /*padding-top: 100px;
         padding-bottom: 100px;)*/
+        
     }
     .linha > h2{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -317,8 +316,6 @@ header{
     
     .fts {
         display: flex;
-        margin: auto;
-        
         text-align: center;
     }
     .fts > .grup > p {
@@ -327,9 +324,11 @@ header{
     .grup{
             font-weight: bold;
             text-align: center;
-            
+            margin: auto;
+
     }
     img{
+       
         height: 333px;
         width: 333px;
     }
@@ -338,7 +337,7 @@ header{
         transition: all 0.5s;
     }
     #big{
-        width: 500px;
+        width: 300px;
         height: 500px
     }
     /*Footer*/

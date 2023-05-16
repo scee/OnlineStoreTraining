@@ -216,7 +216,7 @@
             list-style: none;
         }
 }
-@media screen and (min-wdth: 768px) {
+@media screen and (min-width: 768px) {
     header{
 
     padding: 20px;
@@ -343,7 +343,7 @@
     }
 
     .linha > a > img {
-        width: 600px;
+        width: 400px;
         height: 300px;
     }
     .linha > a > img:hover {
@@ -358,7 +358,7 @@
 
     }
     .linha1>a>img{
-        width: 200px;
+        width: 180px;
         height: 250px;
     }
     /*FOOTER*/
