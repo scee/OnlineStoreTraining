@@ -1,7 +1,183 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding:0px;
 }
+@media only screen and (max-width: 600px){
+    html{
+        width: 100vw;
+        margin: 0px;
+        height: 100%;
+        
+    }
+    
+    header{
+        padding: 20px;
+        background-color: seagreen;
+        text-align: center;
+        }
+        menu{
+            display: inline-flex;
+          
+            height: 155px;
+            padding: 0px;
+            
+        }
+        .tst{
+            text-align: center;
+            
+        }
+        menu > .tst > p {
+           /* width: 100vw;*/
+         color: white;
+         
+        }
+        menu > .tst > h1{
+            font-size: 1em;
+            font-weight: bolder;
+            
+            
+        }
+       
+        q{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1em;
+            font-weight: bolder;
+            color: aliceblue;
+           
+        }
+        
+        ul{
+        list-style: none;
+        margin-left: 20px;
+        display: inline-block;
+        margin-bottom: 5px;
+        }
+        li{
+            height: 20px;
+            padding: 5px;
+           
+        }
+        a{
+            text-decoration: none;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1em;
+            font-weight: bolder;
+            color: aliceblue;
+            
+        }
+        a:hover{
+            padding: 2px;
+            color: rgb(184, 176, 167);
+            
+        }
+        #cat{
+            background-color: rgb(22, 68, 42);
+            box-shadow: 5px 5px 8px black;
+            height: 2em;
+            border-radius: 2px 3px 55px 55px;
+            width: 98%;
+            height: 35px;
+           
+           
+            text-align: center;
+        }
+        #cat > ul {
+            color: black;
+            display: flex;
+           
+           text-align: center;
+           justify-content: center;
+            
+        }
+        #cat > li{
+            border: 1px solid black;
+            font-size: 0.5em;
+            
+    
+        }
+        #cat > a{
+            color: black;
+            
+    
+        }
+        #cat{
+            font-size: 0.7em;
+           
+        }
+        .groups > h1{
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 1em;
+        }
+        #grp{
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+                
+        }
+        .linha{
+            display: inline;
+            padding: 2px;
+            
+        }
+        img{
+            height: 100px;
+            width: 100px;
+            padding: 1px;
+        }
+        img:hover{
+            padding: 15px;
+            transition: all 0.5s;
+        }
+    
+        .linha > a > img {
+            width: 100px;
+            height: 100px;
+        }
+        .linha > a > img:hover {
+            padding: 0px;
+        }
+        
+        /*FOOTER*/
+        footer{
+           
+            
+            /*width: 100vw;*/
+            background-color: seagreen;
+           
+        }
+        footer > p{
+            line-height: 1em;
+            margin-top: 15;
+           
+        }
+        
+        p, h2{
+            text-align: center;
+            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 0.em;
+            font-weight: bolder;
+
+        }
+        h2{
+            font-size: 1em;
+            
+        }
+        .bloco{
+            
+         
+            text-align: center;
+            padding: 10px;
+        }
+        .bloco > li{
+            list-style: none;
+        }
+}
+/*Desktop*/
+@media only screen and (min-width: 768px) {
+    
 header{
 
     padding: 20px;
@@ -25,7 +201,7 @@ header{
     menu > .tst > h1{
         font-size: 2.5em;
         font-weight: bolder;
-        color: ;
+        
     }
     q{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -71,11 +247,7 @@ header{
         margin: auto;
         
     }
-    #cat > li{
-        border: 1px solid black;
-        
-
-    }
+    
     #cat > a{
         color: black;
         
@@ -86,6 +258,7 @@ header{
         margin-top: 20px;
         margin-bottom: 20px;
         font-size: 3em;
+       
     }
     #grp{
         margin: auto;
@@ -119,8 +292,7 @@ header{
 
     /*FOOTER*/
     footer{
-        position: ;
-        ;
+        
         /*width: 100vw;*/
         background-color: seagreen;
        
@@ -134,7 +306,7 @@ header{
     p, h2{
         text-align: center;
       
-        color: ;
+      
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 0.9em;
         font-weight: bolder;
@@ -145,8 +317,8 @@ header{
      
     }
     .bloco{
-        display: inline-block;
-       margin-right: 50px;
+       
+        margin-right: 50px;
         margin-left: 50px;
         text-align: center;
         padding: 10px;
@@ -154,3 +326,4 @@ header{
     .bloco > li{
         list-style: none;
     }
+}
