@@ -110,30 +110,22 @@ h3{
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .card_1{
+    .card{
         background-color: ;
-        width:;
+        width: px;
         
     }
     .card-img-top{
         
     }
 
-    #tbody{
-        width: 50px;
+    footer>.container-fluid{
+        text-align: center;
+        margin-top: 20px;
     }
 
-    .dados{
-       padding: px;
-    }
-
-    .card-body>a{
-        width: 100px;
-        font-size: 6.8em;
-
-    }
     *{
-        font-size: 0.8em;
+        font-size: 
     }
 
 }
