@@ -7,9 +7,9 @@
 
 
 body{
- background-color: black;
- color: white;
- padding: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 h1{
     margin-top: 80px;
@@ -24,7 +24,7 @@ h2{
     
 }
 header{
-
+    
 }
 
 #maintitle{
@@ -51,8 +51,8 @@ header{
 
 
 main{
-
-
+    
+    
 }
 
 .container-fluid_line{
