@@ -17,28 +17,60 @@
     <header>
         <h1>SCEE</h1>
         
-        <div class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                MENU
-            </a>
+        <div class="container-fluid">
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    MENU
+                </a>
             
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="main.html">Home</a></li>
-                <li><a class="dropdown-item" href="products.html">Products</a></li>
-                <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
-                <li><a class="dropdown-item" href="colors.html">Our Colors</a></li>
-            </ul>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="main.html">Home</a></li>
+                    <li><a class="dropdown-item" href="products.html">Products</a></li>
+                    <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
+                    <li><a class="dropdown-item" href="colors.html">Our Colors</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <div class="container-fluid">
-        <video src="../media/ad/savedV/mp3/black_C2C_360_8s.mp4" autoplay loop></video>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <video autoplay loop>
+                    <source src="../media/ad/savedV/mp3/black_C2C_360_8s.mp4"/>
+                </video>
+              </div>
+              <div class="carousel-item">
+                <video autoplay loop>
+                    <source src="../media/ad/savedV/mp3/marrom_C2C_360_8s.mp4"/>
+                </video>
+              </div>
+              <div class="carousel-item">
+                <video autoplay loop>
+                    <source src="../media/ad/savedV/mp3/orange_C2C_360_8s.mp4"/>
+                </video>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        
+        <!--<video src="../media/ad/savedV/mp3/black_C2C_360_8s.mp4" autoplay loop></video>-->
     </div>
     <main>
         
         
         <div class="container-fluid">
             
-            <table class="container-sm">
+            <table class="container-fluid">
                 <thead>
                     <h1>Featured</h1>
                 </thead>
@@ -100,7 +132,7 @@
         </div>
         <div class="container-fluid">
             
-            <table class="container-sm">
+            <table class="container-fluid">
                 <thead>
                     <h1>Color selection</h1>
                 </thead>
