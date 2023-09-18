@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.05em;
+}
+
+
+body{
+ background-color: black;
+ color: white;
+ padding: 20px;
+}
+h1{
+    margin-top: 80px;
+    margin-bottom: 70px;
+    color: #47162a;
+}
+
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+header{
+
+}
+
+#maintitle{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    color: white;
+}
+.container-sm{
+    display: flex;
+    
+}
+
+.btn{
+    background-color: #47162a;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    background-color: #47162a;
+}
+
+
+
+main{
+
+
+}
+
+.container-fluid_line{
+    background-color: #47162a;
+    height: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#footer{
+    margin-top:50px;
+    text-align: center;
+    justify-content: center;
+}
