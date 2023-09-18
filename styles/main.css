@@ -10,6 +10,10 @@ header{
     justify-content: center;
     
 }
+
+body{
+    
+}
 header>h1{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -111,6 +115,7 @@ table>thead{
     }
 
     h5{
+        color: white;
         margin-top: 10px;
         margin-bottom: 10px;
     }
