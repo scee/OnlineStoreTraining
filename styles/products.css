@@ -104,3 +104,36 @@ h3{
     text-align: center;
     color: white;
 }
+
+@media (max-width: 768px){
+    h5{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card_1{
+        background-color: ;
+        width:;
+        
+    }
+    .card-img-top{
+        
+    }
+
+    #tbody{
+        width: 50px;
+    }
+
+    .dados{
+       padding: px;
+    }
+
+    .card-body>a{
+        width: 100px;
+        font-size: 6.8em;
+
+    }
+    *{
+        font-size: 0.8em;
+    }
+
+}
