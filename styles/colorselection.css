@@ -87,6 +87,13 @@ table{
 .card_1{
     width: 18rem;
 }
+
+tr{
+    
+    display: inline-flex;
+}
+
+
 /*modo tlf*/
 
 @media (max-width: 768px){
@@ -103,7 +110,7 @@ table{
 
     .card_1{
         background-color: ;
-        width:;
+       
         
     }
     .card-img-top{
@@ -111,20 +118,26 @@ table{
     }
 
     #tbody{
-        width: 50px;
+       
+        display: block;
     }
 
     .dados{
        padding: 50px;
-       width: ;
     }
 
     .card-body>a{
-        width: 100px;
+        
         font-size: 6.8em;
 
     }
     *{
         font-size: 0.8em;
     }
+
+    tr{
+    
+        display: inline;
+    }
+    
 }

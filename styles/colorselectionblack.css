@@ -7,14 +7,14 @@
 
 
 body{
- background-color: black;
- color: white;
- padding: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 h1{
     margin-top: 80px;
     margin-bottom: 70px;
-    color: #15192c;
+    color: #27221f;
 }
 
 
@@ -24,7 +24,7 @@ h2{
     
 }
 header{
-
+    
 }
 
 #maintitle{
@@ -39,9 +39,10 @@ header{
 }
 
 .btn{
-    background-color: #15192c;
+    background-color: white;
     margin-top: 15px;
     margin-bottom: 20px;
+    color: black;
 }
 .btn:hover{
     background-color: #15192c;
@@ -50,12 +51,18 @@ header{
 
 
 main{
-
-
+    
+    
 }
 
 .container-fluid_line{
-    background-color: #15192c;
+    background-color: #27221f;
+    height: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.container-fluid_line_{
+    background-color: #c5002c;
     height: 10px;
     margin-bottom: 20px;
     border-radius: 20px;
