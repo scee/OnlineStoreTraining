@@ -93,7 +93,14 @@ table{
     h5{
         margin-top: 10px;
         margin-bottom: 10px;
+        
     }
+
+    .card-text{
+        font-size: 1rem;
+    }
+     
+
     .card_1{
         background-color: ;
         width:;
@@ -109,6 +116,7 @@ table{
 
     .dados{
        padding: 50px;
+       width: ;
     }
 
     .card-body>a{
