@@ -98,6 +98,7 @@ table>thead{
 #swipe{
     color:white;
     text-align: center;
+    font-size: 8em;
 }
 
 .material-symbols-outlined {
@@ -106,6 +107,13 @@ table>thead{
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+.container-fluid_line{
+    background-color: red;
+    height: 10px;
+    border-radius: 140px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px){
@@ -120,8 +128,12 @@ table>thead{
         margin-bottom: 10px;
     }
     
-    .dropdown{
-        font-size: 0.5em;
+    .dropdown, .dropdown-menu{
+        font-size: 5em;
+    }
+    .btn{
+        
+        width: px;
     }
     
     
@@ -138,7 +150,7 @@ table>thead{
     
     
     video{
-        height: 740px;
+        height: 735px;
         
     }
 }
